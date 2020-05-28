@@ -5,7 +5,7 @@ const app = express(); // generate new app
 //listen incomng request
 
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ bye: "there" });
 });
 
 const PORT = process.env.PORT || 5000; // inject env variable at run timeout
