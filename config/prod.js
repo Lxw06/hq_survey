@@ -5,7 +5,7 @@ module.exports = {
 
   googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
   // project 0 for test purpose, free
-  mongoURI: process.env.MOMGO_URI,
+  mongoURI: process.env.MONGO_URI,
 
   cookieKey: process.env.COOKIE_KEY
 };
