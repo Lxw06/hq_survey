@@ -1,9 +1,9 @@
 // prod keys auth_server
 module.exports = {
   //Smaily-dev
-  googleClientID: process.env.GOOGL_CLIENT_ID,
+  googleClientID: process.env.GOOGLE_CLIENT_ID,
 
-  googleClientSecret: process.env.GOOGL_CLIENT_SECRET,
+  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
   // project 0 for test purpose, free
   mongoURI: process.env.MOMGO_URI,
 
