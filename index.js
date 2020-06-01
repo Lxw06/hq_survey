@@ -28,7 +28,7 @@ require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app);
 
 // for prod running
-if (orocess.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "production") {
   // express will serve up production assets
   // like our main.js or main.css files
   app.use(express.static("client/build"));
